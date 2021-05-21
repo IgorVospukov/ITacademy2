@@ -1,0 +1,15 @@
+.column {
+  float: left;
+  width: 33.33%;
+}
+.position {
+  margin-left: 20%;
+  margin-right: auto;
+  border: 3px solid rgb(9, 10, 10);
+  width: 300px;
+}
+.position-text {
+  margin-left: 5%;
+  margin-right: auto;
+  font-size: 150%;
+}

@@ -1,0 +1,60 @@
+.main {
+  border: solid 1px;
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+  box-sizing: content-box;
+}
+p {
+  margin: 0px;
+  padding: 200px;
+}
+
+.left {
+  background: url(../media/images/center-left.png);
+  background-size: auto;
+  background-repeat: repeat-y;
+  background-position: center left;
+}
+.top {
+  background: url(../media/images/center-top.png);
+  background-size: auto;
+  background-repeat: repeat-x;
+  background-position: center top;
+}
+.right {
+  background: url(../media/images/center-right.png);
+  background-size: auto;
+  background-repeat: repeat-y;
+  background-position: center right;
+}
+.bottom {
+  background: url(../media/images/center-bot.png);
+  background-size: auto;
+  background-repeat: repeat-x;
+  background-position: center bottom;
+}
+.top-left {
+  background: url(../media/images/top-left.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.top-right {
+  background: url(../media/images/top-right.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.bottom-right {
+  background: url(../media/images/bot-right.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.bottom-left {
+  background: url(../media/images/bot-left.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}

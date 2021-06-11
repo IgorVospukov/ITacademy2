@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.font-family-1 {
+  border: 2px solid black;
+  font-family: 'Lobster', 'Courier New', Courier;
+  font-size: x-large;
+  padding: 5%;
+}
+.font-family-2 {
+  border: 2px solid black;
+  font-family: 'Teko', 'Courier New', Courier;
+  font-size: x-large;
+  padding: 5%;
+}

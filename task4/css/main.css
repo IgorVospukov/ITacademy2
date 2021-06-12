@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
 .main {
   border: solid 1px;
   margin: 0%;
@@ -6,6 +7,8 @@
   box-sizing: content-box;
 }
 p {
+  font-family: 'Teko', 'Courier New', Courier, monospace;
+  font-size: x-large;
   margin: 0px;
   padding: 200px;
 }

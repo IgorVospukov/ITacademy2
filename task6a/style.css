@@ -1,0 +1,71 @@
+body {
+  font-family: 'PT Sans Caption', sans-serif;
+}
+h1 {
+  text-align: center;
+}
+
+.menu-inline,
+.menu-float,
+.menu-flex {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  text-align: center;
+}
+.menu-inline li {
+  display: inline;
+  padding: 5px 7px;
+  border-right: 3px solid #ff0000;
+}
+.menu-inline li:last-of-type {
+  border-right: none;
+}
+.menu-float {
+  /* overflow: hidden; */
+  /* margin: 20px 120px; */
+  margin-left: 26%;
+}
+
+.menu-float li {
+  max-width: 200px;
+  float: left;
+  border-right: 3px solid red;
+}
+
+.menu-float a {
+  /* display: block; */
+  /* margin: 0 5px; */
+  padding: 10px 20px;
+  /* color: #1b0870; */
+}
+
+.menu-float li:last-of-type {
+  border-right: none;
+}
+.clearfix {
+  clear: both;
+}
+
+.menu-flex {
+  display: flex;
+  display: -webkit-flex;
+  padding-left: 0;
+  justify-content: center;
+}
+.menu-flex li:last-of-type {
+  border-right: none;
+}
+
+.menu-flex a {
+  padding: 5px 15px;
+  display: block;
+  border-right: 3px solid #ff0000;
+}
+
+.menu-float a:hover,
+.menu-inline a:hover,
+.menu-flex a:hover {
+  color: #bb2800;
+}

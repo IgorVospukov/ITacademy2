@@ -1,0 +1,31 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.stars {
+  display: inline-block;
+  width: 100%;
+  height: 300px;
+}
+.stars {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.str {
+  display: inline-block;
+  background-image: url('img/star3.png');
+  background-size: auto;
+  width: 300px;
+  height: 285px;
+}
+
+.str:hover ~ .str:nth-child(1),
+.str:hover ~ .str:nth-child(2),
+.str:hover ~ .str:nth-child(3),
+.str:hover ~ .str:nth-child(4),
+.str:hover ~ .str:nth-child(5) {
+  background-image: url('img/star4.png');
+}

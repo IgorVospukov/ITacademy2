@@ -1,0 +1,182 @@
+body {
+  background-image: url(/anotherTask/img/back3.jpg);
+  background-size: contain;
+}
+.header1 {
+  margin-bottom: 50px;
+  /* background-color: rgba(74, 163, 214, 0.363); */
+}
+.logo1 {
+  background-image: url(/anotherTask/img/logo7.png);
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+  margin-right: auto;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.351);
+  box-shadow: inset 0 0 6px black;
+}
+.slogan {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin-left: 31%;
+  margin-right: auto;
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.351);
+  box-shadow: inset 0 0 6px black;
+}
+.h1txt {
+  text-align: center;
+  padding: 25%;
+  margin-top: 15%;
+  margin-bottom: auto;
+  color: aqua;
+}
+.contacts {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin-left: 73%;
+  margin-right: auto;
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.351);
+  box-shadow: inset 0 0 6px black;
+}
+.contactstxt {
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aqua;
+  padding-top: 15%;
+}
+.navi {
+  display: block;
+  margin-bottom: 50px;
+  /* background-color: red; */
+}
+
+.main {
+  display: inline-block;
+  margin-bottom: 30px;
+  /* background-color: red; */
+  width: 100%;
+  height: 100%;
+}
+.naviglavn {
+  display: inline-block;
+  /* border: 2px solid black; */
+  width: 50%;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 25px;
+  box-shadow: inset 0 0 6px black;
+}
+.navicont {
+  display: inline-block;
+  /* border: 2px solid black; */
+  width: 49%;
+  margin-right: 0;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 25px;
+  box-shadow: inset 0 0 6px black;
+}
+#navi-left-button,
+#navi-right-button {
+  font-size: 80px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: aqua;
+}
+
+.contactstel {
+  text-align: center;
+}
+#line1,
+#line2,
+#linelink1,
+#linelink2,
+#linelink3 {
+  text-decoration: none;
+}
+.contacts-footer1 {
+  display: inline-block;
+  width: 30%;
+  display: inline-block;
+  margin-left: 0%;
+  margin-right: auto;
+
+  /* background-color: red; */
+}
+.footerlink-1,
+.footerlink-2,
+.footerlink-3 {
+  display: block;
+  color: black;
+}
+.lable {
+  position: absolute;
+  margin-top: 0px;
+  display: inline-block;
+  width: 70%;
+  text-align: center;
+  font-size: 100px;
+}
+/* .form-main {
+  float: left;
+  margin-left: 25%;
+} */
+#h1 {
+  display: block;
+  text-align: center;
+}
+.name-user,
+.password-user,
+.age-user,
+.gender-user,
+.contactinf {
+  margin-left: 40%;
+}
+.legend {
+  margin-left: 25%;
+  display: block;
+}
+.contactinf {
+  display: inline-block;
+  margin-left: 25%;
+  padding-left: 12%;
+  padding-right: auto;
+}
+.user-mail,
+.user-tel {
+  display: inline-block;
+  margin-left: 40%;
+}
+.user-tel {
+  padding-left: 3.5%;
+}
+.left-button,
+.right-button {
+  display: inline-block;
+  margin-left: 30%;
+}
+.footerlink-1,
+.footerlink-2,
+.footerlink-3 {
+  font-size: 20px;
+  text-decoration: none;
+}
+#linelink1,
+#linelink2,
+#linelink3,
+#tel1,
+#tel2 {
+  color: lightsalmon;
+  text-decoration: none;
+}

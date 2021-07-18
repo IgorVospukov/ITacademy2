@@ -1,0 +1,21 @@
+.name {
+  font-weight: bold;
+  font-size: 24px;
+}
+.data {
+  color: green;
+}
+.chemp {
+  font-weight: bold;
+  color: red;
+}
+.textblue {
+  font-style: italic;
+  color: blue;
+}
+div {
+  margin-top: 10px;
+}
+p {
+  margin: 0;
+}

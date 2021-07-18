@@ -1,0 +1,184 @@
+.footer {
+  width: 100%;
+  background-color: rgb(3, 3, 82);
+  grid-area: footer;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows:
+    minmax(40px, auto)
+    repeat(2, minmax(100px, auto))
+    minmax(50px, auto);
+}
+.ftr-head {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+.ftr-map {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+.ftr-map-btn1 {
+  grid-column: 1/2;
+  grid-row: auto;
+  width: 70px;
+  height: 70px;
+  background: url(/Maket2/img/map-icon.png) center no-repeat;
+  border: none;
+  justify-self: right;
+  align-self: center;
+}
+.ftr-a1 {
+  grid-column: 2/3;
+  grid-row: auto;
+  justify-self: left;
+  align-self: flex-end;
+}
+.ftr-point {
+  color: whitesmoke;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.ftr-tel {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  justify-self: center;
+}
+.ftr-tel-btn1 {
+  grid-column: 1/2;
+  grid-row: auto;
+  width: 70px;
+  height: 70px;
+  background: url(/Maket2/img/phone-icon.png) center no-repeat;
+  border: none;
+  justify-self: right;
+  align-self: center;
+}
+.ftr-a3 {
+  grid-column: 2/3;
+  grid-row: auto;
+  justify-self: left;
+  align-items: center;
+}
+.ftr-email {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+.ftr-email-btn1 {
+  grid-column: 1/2;
+  grid-row: auto;
+  width: 70px;
+  height: 70px;
+  background: url(/Maket2/img/email-icon.png) center no-repeat;
+  border: none;
+  justify-self: right;
+  align-self: center;
+}
+.ftr-a4 {
+  grid-column: 2/3;
+  grid-row: auto;
+  justify-self: left;
+  align-self: center;
+  text-transform: lowercase;
+}
+.ftr-main {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+.ftr-app {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align-self: center;
+  justify-self: center;
+  display: inline-block;
+}
+.ftr-btn1 {
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  background: url(/Maket2/img/fb-icon.png) center no-repeat;
+}
+.ftr-btn2 {
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  background: url(/Maket2/img/twitter-icon.png) center no-repeat;
+}
+.ftr-btn3 {
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  background: url(/Maket2/img/instagram-icon.png) center no-repeat;
+}
+.ftr-btn4 {
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  background: url(/Maket2/img/in-icon.png) center no-repeat;
+}
+.ftr-app > button {
+  border: none;
+}
+.ftr-copyright {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  justify-self: center;
+  align-self: center;
+}
+.ftr-copyright > p {
+  color: whitesmoke;
+  text-transform: capitalize;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+}
+@media (max-width: 640px) {
+  .btn6,
+  .btn7,
+  .btn8 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    justify-self: left;
+  }
+}
+@media (max-width: 320px) {
+  .btn6,
+  .btn7,
+  .btn8 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    justify-self: left;
+  }
+  .card1,
+  .card2,
+  .card3 {
+    width: 100%;
+    height: auto;
+  }
+  .card1 > li,
+  .card2 > li,
+  .card3 > li {
+    font-size: inherit;
+  }
+  .ftr-point {
+    font-size: 0;
+  }
+}

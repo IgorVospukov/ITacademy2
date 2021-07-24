@@ -1,0 +1,20 @@
+@import url(style_header.css);
+@import url(style_main.css);
+@import url(style_footer.css);
+@import url(stylegamb.css);
+
+html,
+body,
+.wrapper {
+  margin: 0;
+  width: 100%;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(200px, auto) 1fr minmax(290px, auto);
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+}

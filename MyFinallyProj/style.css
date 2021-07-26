@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+}
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+.sidebar {
+  height: 100%;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s ease-in-out;
+}
+.sidebar > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.sidebar h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.first {
+  background: linear-gradient(229.99deg, #11dee9 -26%, #017e8b 145%);
+  text-align: center;
+}
+.first > h1,
+.first > p {
+  margin-bottom: 5%;
+}
+.first > p {
+  font-size: 2rem;
+}
+.second {
+  background: linear-gradient(215.32deg, #f90306 -1%, #9e0706 124%);
+  text-align: center;
+}
+.second > p {
+  margin-top: 5%;
+  font-size: 2rem;
+}
+.third {
+  background: url('img/luke-chesser-rCOWMC8qf8A-unsplash.jpg') center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.fourth {
+  background: url('img/sushil-ghimire-5UbIqV58CW8-unsplash.jpg');
+  text-align: center;
+}
+.fourth > button {
+  border-radius: 10px;
+  margin-top: 10%;
+  color: #f39102;
+  font-weight: bold;
+  background-color: black;
+}
+.third > button {
+  border-radius: 10px;
+  margin-top: 30%;
+  color: aqua;
+  font-weight: bold;
+  background-color: black;
+}
+.arrow span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-top: 3px solid red;
+  border-right: 3px solid red;
+  animation: arrow 0.8s infinite;
+  margin: -2px;
+}
+.arrow span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.arrow span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.arrow span:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.arrow span:nth-child(5) {
+  animation-delay: 0.5s;
+}
+.arrow span:nth-child(6) {
+  animation-delay: 0.6s;
+}
+@keyframes arrow {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-0px, -0px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(0px, 0px);
+  }
+}
+.main-slide {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 35%;
+  width: 65%;
+  transition: transform 0.5s ease-in-out;
+}
+.main-slide > div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.slide1 {
+  background-image: url('img/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg');
+  background-size: cover;
+  text-align: center;
+}
+.slide1 > p {
+  margin-bottom: 5%;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+label {
+  width: 150px;
+  height: 25px;
+  background: url('img/logo.png');
+  background-size: cover;
+}
+.slide2 {
+  background-image: url('img/charles-gaudreault-xXofYCc3hqc-unsplash\ \(1\).jpg');
+  text-align: center;
+}
+.slide2 > ul {
+  padding: 5%;
+  list-style-type: none;
+  font-weight: bold;
+  color: white;
+}
+.slide2 > ul > li {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: x-large;
+  line-height: 4rem;
+}
+.slide2 > ul > li:nth-child(2) {
+  color: red;
+}
+.slide3 {
+  background: url('img/giorgio-trovato-2yQX9D54Eto-unsplash\ \(1\).jpg');
+  background-size: cover;
+  text-align: center;
+}
+.slide3 > p {
+  padding: 5%;
+  text-align: justify;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  overflow: hidden;
+  line-height: 2rem;
+  color: white;
+}
+#slide4 {
+  background-image: url('img/tom-roberts-dsQEmEfKuFg-unsplash\ \(1\).jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#slide4 > button {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.sld4-btn1 {
+  background: url('img/instagram-icon.png') center;
+}
+.sld4-btn2 {
+  background: url('img/in-icon.png') center;
+}
+.sld4-btn3 {
+  background: url('img/fb-icon.png') center;
+}
+.sld4-btn4 {
+  background: url('img/twitter-icon.png') center;
+}
+#slide4 > button:hover {
+  background-color: aqua;
+  transform: scale(1.5) rotate(30deg);
+}
+button {
+  background-color: #fff;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 15px;
+}
+button:hover {
+  color: #222;
+}
+button:focus {
+  outline: none;
+}
+.container .controls button {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  z-index: 100;
+}
+.container .controls .down-button {
+  transform: translateX(-100%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  opacity: 80%;
+}
+.container .controls .up-button {
+  transform: translateY(-100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  opacity: 80%;
+}
+@media (min-width: 319px) and (max-width: 641px) {
+  .fourth > h1 {
+    font-size: 0rem;
+  }
+  .fourth > button {
+    height: auto;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.788);
+  }
+  .slide2 > ul > li {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  .third > button {
+    opacity: 70%;
+  }
+  .second > h1 {
+    font-size: 1rem;
+  }
+  .second > p {
+    font-size: 0rem;
+  }
+  .slide3 > p {
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+  }
+  .first > h1,
+  .first > p {
+    font-size: 0rem;
+  }
+  .container .controls button {
+    left: 35%;
+    top: 20%;
+  }
+}

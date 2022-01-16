@@ -1,0 +1,88 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.searchBlockFlex {
+  align-items: center;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 100px, auto;
+}
+
+.nameCard{
+  grid-column: 1/2;
+  color: white;
+  margin: 0;
+  font-family: cursive;
+  font-style: italic;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.searchBlock {
+  max-width: 210px;
+  height: auto;
+  grid-column: 2/3;
+  border: 1px solid rgba(128, 128, 128, 0.316);
+  border-radius: 5px;
+  padding: 0 0 0px 10px;
+  justify-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  img{
+    width: 100%;
+    align-self: center;
+  }
+  input {
+    border: 0;
+    font-size: 14px;
+    max-width: 150px;
+    padding-left: 10px;
+    margin-left: 10px;
+    background: none;
+    outline: none;
+    color: white;
+  }
+}
+
+.content {
+  display: grid;
+  // justify-content: center;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  grid-template-rows: auto;
+  padding: 10px 10px 10px 10px;
+}
+
+.toHome{
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(128, 128, 128, 0.507);
+  border-radius: 50%;
+  position: fixed;
+  top: 85%;
+  left: 93%;
+}
+
+.forCarousel{
+ max-width: 80vw;
+ padding: auto;
+ justify-self: center;
+}
+
+.mainPic1, .mainPic2, .mainPic3, .mainPic4 {
+  width: 80vw;
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .toHome{
+    position: fixed;
+    top: 85%;
+    left: 85%;
+  }
+}

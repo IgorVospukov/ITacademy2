@@ -1,0 +1,23 @@
+* {
+  list-style-type: none;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  
+}
+button,
+input {
+  font-family: Roboto, sans-serif;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #100e19;
+}
